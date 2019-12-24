@@ -1,4 +1,9 @@
 package com.briup.group.web.controller;
 
-public class DDControllerg {
+        import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class DDController {
+
 }
