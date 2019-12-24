@@ -12,7 +12,7 @@ public class XwhController {
         message.setTime(System.currentTimeMillis());
         message.setStatus(0);
         message.setMessage("xwh");
-        message.setData("hyfsd有点意思");
+        message.setData("有点意思");
         return message;
     }
 
