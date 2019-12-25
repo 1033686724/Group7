@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class LIfpController {
-    @PostMapping
-    public Message sdd(int stuID){
+    @PostMapping("/add")
+    public Message add(int stuID){
        return MessageUtil.success();
     }
 }
