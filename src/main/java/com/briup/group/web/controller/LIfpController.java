@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class LIfpController {
     @PostMapping
     public Message sdd(int stuID){
-        MessageUtil.success();
+       return MessageUtil.success();
     }
 }
